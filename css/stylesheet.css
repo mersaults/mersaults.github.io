@@ -1,35 +1,42 @@
+/* General Styling */
+
 body {
     background-color:#1f1b24;
     font-family: Arial, Helvetica, sans-serif;
-}
-
-p {
-    color:aliceblue;
+    color: white;
 }
 
 a:visited {
     color: red;
 }
 
-.text-body {
-    
+/* Centering classes */
+
+.list-center {
+    display: table;
+    margin: 0 auto;
+    padding-bottom: 20px;
 }
 
 .page-header {
-    color: aliceblue;
+    color: white;
     padding-top: 75px;
-    text-align: center;
 }
 
 .img-center {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    padding-bottom: 15px;
 }
 
 .text-center {
     text-align: center;
+    margin: auto;
+    width: 50%;
 }
+
+/* Navbar */
 
 .sidenav {
     height: 100%;
